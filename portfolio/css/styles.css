@@ -1,11 +1,11 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Base */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f6f8;
@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navigation */
+
 nav {
     background-color: #0b3d91;
     padding: 15px 0;
@@ -51,7 +51,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Main content */
+
 main {
     max-width: 900px;
     margin: 30px auto;
@@ -70,12 +70,12 @@ section h2 {
     color: #0b3d91;
 }
 
-/* Lists */
+
 ul {
     margin-left: 20px;
 }
 
-/* Projects */
+
 .project {
     border-left: 5px solid #0b3d91;
 }
