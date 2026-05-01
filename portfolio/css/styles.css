@@ -1,0 +1,246 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background-color: #0b3d91;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #0b3d91;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+/* Projects */
+.project {
+    border-left: 5px solid #0b3d91;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0b3d91;
+    color: white;
+    margin-top: 40px;
+}
+
+nav i {
+    margin-right: 8px;
+}
+
+section h2 i {
+    margin-right: 10px;
+    color: #0b3d91;
+}
+
+p i {
+    margin-right: 8px;
+    color: #0b3d91;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #0b3d91;
+}
+
+.project-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.project-home {
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.project-poster {
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.project-station {
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.school-logo {
+    width: 220px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #0b3d91;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #dcdcdc;
+}
+
+a {
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0b3d91;
+}
+
+
+.contact-links {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    transition: box-shadow 0.2s ease;
+}
+
+.contact-item:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-item i {
+    width: 30px;
+    font-size: 1.3em;
+    color: #0b3d91;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    color: #0b3d91;
+}
+
+
+.contact-item i {
+    width: 30px;
+    font-size: 1.3em;
+}
+
+
+.email {
+    color: #d44638; 
+}
+
+.github {
+    color: #333; 
+}
+
+.linkedin {
+    color: #0077b5; 
+}
+
+.contact-item:hover .github {
+    color: #000;
+}
+
+.contact-item:hover .linkedin {
+    color: #005582;
+}
+
+.contact-item:hover .email {
+    color: #b23121;
+}
